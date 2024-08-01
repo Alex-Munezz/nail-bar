@@ -1,0 +1,22 @@
+/* app.css */
+.more {
+    background-color: #ffffff; /* Green background */
+    border: none; /* Remove borders */
+    color: rgb(189, 0, 145); /* White text */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline block */
+    font-size: 16px; /* Text size */
+    margin: 4px 2px; /* Margins */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #0015d1; /* Darker green background */
+    color: #ffffff;
+  }
+  

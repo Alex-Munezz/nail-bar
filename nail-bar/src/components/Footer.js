@@ -7,17 +7,8 @@ const Footer = () => {
       <div className="container mx-auto text-center">
         <p>&copy; 2024 Nail Bar. All rights reserved.</p>
         <div className="flex justify-center mt-4 space-x-4">
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white">
-            <FontAwesomeIcon icon={faInstagram} size="2x" />
-          </a>
-          <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer" className="text-white">
+          <a href="https://api.whatsapp.com/send?phone=254716554709&text=Hello%20Faith...." target="_blank" rel="noopener noreferrer" className="text-white">
             <FontAwesomeIcon icon={faWhatsapp} size="2x" />
-          </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white">
-            <FontAwesomeIcon icon={faLinkedin} size="2x" />
-          </a>
-          <a href="https://www.github.com" target="_blank" rel="noopener noreferrer" className="text-white">
-            <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
         </div>
       </div>
