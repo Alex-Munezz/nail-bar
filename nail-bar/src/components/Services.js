@@ -30,7 +30,7 @@ const Services = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div key={index} className="p-6 bg-pink-100 rounded-lg shadow-lg">
-              <img src={service.image} alt='image' className='h-80 w-full rounded-lg' /><br />
+              <img src={service.image} alt='' className='h-80 w-full rounded-lg' /><br />
               <h3 className="text-2xl font-semibold text-purple-700 mb-4">{service.title}</h3>
               <p>{service.description}</p>
             </div>
