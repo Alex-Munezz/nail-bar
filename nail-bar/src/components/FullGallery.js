@@ -52,7 +52,7 @@ const images = [
 
 const Gallery = () => {
   const { ref, inView } = useInView({
-    threshold: 0.3  , // Adjust this value to trigger the animation earlier or later
+    threshold: 0.1,
     triggerOnce: true,
   });
 
